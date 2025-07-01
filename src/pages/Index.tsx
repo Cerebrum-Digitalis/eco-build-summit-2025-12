@@ -37,14 +37,14 @@ const Index = () => {
           <img 
             src="/lovable-uploads/a9323d6f-8aba-4a84-b2d2-f009222a458e.png" 
             alt="Logo Sinergias" 
-            className="h-16 w-auto bg-white rounded-lg p-2"
+            className="h-22 w-auto bg-white rounded-lg p-2"
           />
         </div>
         
         {/* Hero Section com Imagem de Fundo */}
         <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-no-repeat opacity-90"
+            className="absolute inset-0 bg-cover bg-no-repeat opacity-85"
             style={{
               backgroundImage: `url('/lovable-uploads/1cbce8a3-08a7-43a9-ba07-84aa589f1587.png')`,
               backgroundPosition: 'center 25%'
