@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -46,10 +45,10 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-md"
             style={{
-              backgroundImage: `url('/lovable-uploads/268dad8f-3e84-4c0a-87dd-6d52d3675de0.png')`,
+              backgroundImage: `url('/lovable-uploads/73c1c93e-dac2-46e9-aefc-5b8927aa3158.png')`,
             }}
           >
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-black/85"></div>
           </div>
           
           <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
