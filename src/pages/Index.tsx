@@ -37,7 +37,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/d609bb51-97e2-47b6-86f7-0b9d8f092631.png" 
             alt="Logo Sinergias" 
-            className="h-16 w-auto"
+            className="h-16 w-auto bg-white rounded-lg p-2"
           />
         </div>
         
