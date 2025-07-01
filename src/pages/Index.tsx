@@ -37,14 +37,15 @@ const Index = () => {
           <img 
             src="/lovable-uploads/a9323d6f-8aba-4a84-b2d2-f009222a458e.png" 
             alt="Logo Sinergias" 
-            className="h-16 w-auto bg-white rounded-lg p-2"
+            className="h-[21.6px] w-auto bg-white rounded-lg p-2"
+            style={{ height: '21.6px' }}
           />
         </div>
         
         {/* Hero Section com Imagem de Fundo */}
         <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-no-repeat opacity-90"
+            className="absolute inset-0 bg-cover bg-no-repeat opacity-25"
             style={{
               backgroundImage: `url('/lovable-uploads/1cbce8a3-08a7-43a9-ba07-84aa589f1587.png')`,
               backgroundPosition: 'center 25%'
@@ -54,13 +55,16 @@ const Index = () => {
           </div>
           
           <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg text-shadow-[2px_2px_4px_rgba(0,0,0,0.8)]" 
+                style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 20px rgba(255,255,255,0.3)'}}>
               O Poder das Tecnologias e Leis de Direitos Sociais na Revolução Socioambiental
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-yellow-300 bg-black/30 px-4 py-2 rounded-lg drop-shadow-lg inline-block">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-yellow-300 bg-black/30 px-4 py-2 rounded-lg drop-shadow-lg inline-block"
+                style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8), 0 0 15px rgba(255,255,255,0.2)'}}>
               Através da Construção Civil
             </h2>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg">
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg"
+               style={{textShadow: '1px 1px 2px rgba(0,0,0,0.8), 0 0 10px rgba(255,255,255,0.2)'}}>
               Diminua seus custos e entre mais valor! Porque seu próximo projeto exigirá conectividade 5G, 
               pontos de recarga para veículos elétricos, automação predial, energias renováveis e mais! 
               Neste evento, você encontrará os parceiros para viabilizar isso. Não perca a chance de 
