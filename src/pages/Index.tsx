@@ -44,7 +44,7 @@ const Index = () => {
         {/* Hero Section com Imagem de Fundo */}
         <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-md"
             style={{
               backgroundImage: `url('/lovable-uploads/268dad8f-3e84-4c0a-87dd-6d52d3675de0.png')`,
             }}
@@ -56,7 +56,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
               O Poder das Tecnologias e Leis de Direitos Sociais na Revolução Socioambiental
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-green-300 drop-shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-yellow-300 bg-black/40 px-6 py-3 rounded-lg inline-block drop-shadow-lg border-2 border-yellow-300">
               Através da Construção Civil
             </h2>
             <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg">
