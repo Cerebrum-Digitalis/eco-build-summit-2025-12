@@ -50,17 +50,17 @@ const Index = () => {
               backgroundPosition: 'center 25%'
             }}
           >
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-black/60"></div>
           </div>
           
-          <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
+          <div className="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-2xl [text-shadow:_2px_2px_4px_rgb(0_0_0_/_80%)] stroke-black stroke-2">
               O Poder das Tecnologias e Leis de Direitos Sociais na Revolução Socioambiental
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-yellow-300 bg-black/30 px-4 py-2 rounded-lg drop-shadow-lg inline-block">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-yellow-300 bg-black/60 px-6 py-3 rounded-xl drop-shadow-2xl border-2 border-yellow-400/30 backdrop-blur-sm [text-shadow:_2px_2px_4px_rgb(0_0_0_/_90%)] inline-block">
               Através da Construção Civil
             </h2>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg">
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed text-white drop-shadow-2xl bg-black/40 p-6 rounded-lg backdrop-blur-sm border border-white/20 [text-shadow:_1px_1px_3px_rgb(0_0_0_/_90%)]">
               Diminua seus custos e entre mais valor! Porque seu próximo projeto exigirá conectividade 5G, 
               pontos de recarga para veículos elétricos, automação predial, energias renováveis e mais! 
               Neste evento, você encontrará os parceiros para viabilizar isso. Não perca a chance de 
