@@ -35,7 +35,7 @@ const Index = () => {
       <header className="relative w-full">
         <div className="absolute top-4 right-4 z-10">
           <img 
-            src="/lovable-uploads/d609bb51-97e2-47b6-86f7-0b9d8f092631.png" 
+            src="/lovable-uploads/a9323d6f-8aba-4a84-b2d2-f009222a458e.png" 
             alt="Logo Sinergias" 
             className="h-16 w-auto bg-white rounded-lg p-2"
           />
@@ -44,9 +44,10 @@ const Index = () => {
         {/* Hero Section com Imagem de Fundo */}
         <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
+            className="absolute inset-0 bg-cover bg-no-repeat opacity-90"
             style={{
-              backgroundImage: `url('/lovable-uploads/268dad8f-3e84-4c0a-87dd-6d52d3675de0.png')`,
+              backgroundImage: `url('/lovable-uploads/1cbce8a3-08a7-43a9-ba07-84aa589f1587.png')`,
+              backgroundPosition: 'center 25%'
             }}
           >
             <div className="absolute inset-0 bg-black/50"></div>
@@ -56,13 +57,14 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
               O Poder das Tecnologias e Leis de Direitos Sociais na Revolução Socioambiental
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-green-300 drop-shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-yellow-300 bg-black/30 px-4 py-2 rounded-lg drop-shadow-lg inline-block">
               Através da Construção Civil
             </h2>
             <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg">
-              Porque seu próximo projeto exigirá conectividade 5G, pontos de recarga para veículos elétricos, 
-              automação predial, energias renováveis e mais! Neste evento, você encontrará os parceiros para 
-              viabilizar isso. Não perca a chance de dominar a nova era da construção e do desenvolvimento urbano.
+              Diminua seus custos e entre mais valor! Porque seu próximo projeto exigirá conectividade 5G, 
+              pontos de recarga para veículos elétricos, automação predial, energias renováveis e mais! 
+              Neste evento, você encontrará os parceiros para viabilizar isso. Não perca a chance de 
+              dominar a nova era da construção e do desenvolvimento urbano.
             </p>
           </div>
         </section>
