@@ -44,22 +44,22 @@ const Index = () => {
         {/* Hero Section com Imagem de Fundo */}
         <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat blur-sm"
             style={{
               backgroundImage: `url('/lovable-uploads/268dad8f-3e84-4c0a-87dd-6d52d3675de0.png')`,
             }}
           >
-            <div className="absolute inset-0 bg-black/40"></div>
+            <div className="absolute inset-0 bg-black/50"></div>
           </div>
           
           <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
               O Poder das Tecnologias e Leis de Direitos Sociais na Revolução Socioambiental
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-green-300">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-green-300 drop-shadow-lg">
               Através da Construção Civil
             </h2>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed drop-shadow-lg">
               Porque seu próximo projeto exigirá conectividade 5G, pontos de recarga para veículos elétricos, 
               automação predial, energias renováveis e mais! Neste evento, você encontrará os parceiros para 
               viabilizar isso. Não perca a chance de dominar a nova era da construção e do desenvolvimento urbano.

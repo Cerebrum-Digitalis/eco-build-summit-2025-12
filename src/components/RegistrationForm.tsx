@@ -39,7 +39,7 @@ const RegistrationForm = ({ onRegistrationComplete }) => {
               className="text-lg p-3"
             />
             {errors.fullName && (
-              <p className="text-red-500 text-sm">{errors.fullName.message}</p>
+              <p className="text-red-500 text-sm">{errors.fullName.message as string}</p>
             )}
           </div>
 
@@ -62,7 +62,7 @@ const RegistrationForm = ({ onRegistrationComplete }) => {
               className="text-lg p-3"
             />
             {errors.email && (
-              <p className="text-red-500 text-sm">{errors.email.message}</p>
+              <p className="text-red-500 text-sm">{errors.email.message as string}</p>
             )}
           </div>
 
@@ -78,7 +78,7 @@ const RegistrationForm = ({ onRegistrationComplete }) => {
               className="text-lg p-3"
             />
             {errors.whatsapp && (
-              <p className="text-red-500 text-sm">{errors.whatsapp.message}</p>
+              <p className="text-red-500 text-sm">{errors.whatsapp.message as string}</p>
             )}
           </div>
 
@@ -123,7 +123,7 @@ const RegistrationForm = ({ onRegistrationComplete }) => {
                   className="text-lg p-3"
                 />
                 {errors.companionName && (
-                  <p className="text-red-500 text-sm">{errors.companionName.message}</p>
+                  <p className="text-red-500 text-sm">{errors.companionName.message as string}</p>
                 )}
               </div>
 
