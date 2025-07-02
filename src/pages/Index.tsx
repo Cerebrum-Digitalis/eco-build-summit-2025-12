@@ -33,11 +33,11 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
       {/* Header com Logo */}
       <header className="relative w-full">
-        <div className="absolute top-4 right-4 z-10">
+        <div className="absolute top-4 right-4 z-30">
           <img 
-            src="/lovable-uploads/a9323d6f-8aba-4a84-b2d2-f009222a458e.png" 
+            src="/lovable-uploads/c017a824-26ca-4496-b350-8c869d3304f1.png" 
             alt="Logo Sinergias" 
-            className="h-16 w-auto bg-white rounded-lg p-2"
+            className="h-16 w-auto bg-white rounded-lg p-2 shadow-lg"
           />
         </div>
         
@@ -133,8 +133,8 @@ const Index = () => {
                 "Provedores",
                 "Tecnologias",
                 "Veículos Elétricos",
-                "Investidores",
-                "Entusiastas"
+                "Engenheiros",
+                "Arquitetos"
               ].map((audience, index) => (
                 <div key={index} className="bg-gradient-to-r from-green-100 to-blue-100 p-4 rounded-lg text-center">
                   <p className="font-semibold text-gray-700">{audience}</p>
