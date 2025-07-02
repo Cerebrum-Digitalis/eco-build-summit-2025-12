@@ -33,11 +33,11 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
       {/* Header com Logo */}
       <header className="relative w-full">
-        <div className="absolute top-4 right-4 z-30">
+        <div className="absolute top-6 right-6 z-10">
           <img 
-            src="/lovable-uploads/c017a824-26ca-4496-b350-8c869d3304f1.png" 
+            src="/lovable-uploads/123c711e-9af3-4c71-ba6e-2ee1410b86b9.png" 
             alt="Logo Sinergias" 
-            className="h-16 w-auto bg-white rounded-lg p-2 shadow-lg"
+            className="h-12 w-auto drop-shadow-lg"
           />
         </div>
         
